@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/ndthanh20/ChooseLetter_FinalExamProject/issues"
   },
-  "homepage": "https://github.com/ndthanh20/ChooseLetter_FinalExamProject#readme"
+  "homepage": "https://github.com/ndthanh20/ChooseLetter_FinalExamProject#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "phaser": "^3.23.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
