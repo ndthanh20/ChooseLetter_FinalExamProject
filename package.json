@@ -4,7 +4,8 @@
   "description": "The final exam project: Choose Letter (Phaser + Typescript)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack --watch & live-server --port=8085"
   },
   "repository": {
     "type": "git",
