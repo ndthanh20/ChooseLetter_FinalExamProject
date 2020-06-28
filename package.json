@@ -1,0 +1,19 @@
+{
+  "name": "choose_letter",
+  "version": "1.0.0",
+  "description": "The final exam project: Choose Letter (Phaser + Typescript)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndthanh20/ChooseLetter_FinalExamProject.git"
+  },
+  "author": "Nguyen Duy Thanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndthanh20/ChooseLetter_FinalExamProject/issues"
+  },
+  "homepage": "https://github.com/ndthanh20/ChooseLetter_FinalExamProject#readme"
+}
