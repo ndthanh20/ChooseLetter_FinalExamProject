@@ -2,8 +2,8 @@ import "phaser";
 import {GameScene} from "./gameScene"
 const config: Phaser.Types.Core.GameConfig = {
   title: "Choose Letter",
-  width: 800,
-  height: 600,
+  width: 1600,
+  height: 900,
   parent: "game",
   scene: [GameScene],
   backgroundColor: "#18216D"
