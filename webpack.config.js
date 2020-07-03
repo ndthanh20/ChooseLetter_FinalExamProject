@@ -1,4 +1,5 @@
 const path = require('path');
+const { Loader } = require('phaser');
 module.exports = {
   entry: './src/app.ts',
   module: {
@@ -7,6 +8,12 @@ module.exports = {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/
+      }
+    ],
+    loader:[
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
       }
     ]
   },

@@ -4,62 +4,111 @@
             {
                 "type":"image",
                 "key":"goat_c",
-                "url":"assets/goat_c.png"
+                "url":"assets/Images/goat_c.png"
             },
             {
                 "type":"image",
                 "key":"goat_d",
-                "url":"assets/goat_d.png"
+                "url":"assets/Images/goat_d.png"
             },
             {
                 "type":"image",
                 "key":"goat_i",
-                "url":"assets/goat_i.png"
+                "url":"assets/Images/goat_i.png"
             },
             {
                 "type":"image",
                 "key":"pig_e",
-                "url":"assets/pig_e.png"
+                "url":"assets/Images/pig_e.png"
             },
             {
                 "type":"image",
                 "key":"pig_w",
-                "url":"assets/pig_w.png"
+                "url":"assets/Images/pig_w.png"
             },
             {
                 "type":"image",
                 "key":"pig_x",
-                "url":"assets/pig_x.png"
+                "url":"assets/Images/pig_x.png"
             },
             {
                 "type":"image",
                 "key":"sheep_k",
-                "url":"assets/sheep_k.png"
+                "url":"assets/Images/sheep_k.png"
             },
             {
                 "type":"image",
                 "key":"sheep_u",
-                "url":"assets/sheep_u.png"
+                "url":"assets/Images/sheep_u.png"
             },
             {
                 "type":"image",
                 "key":"sheep_z",
-                "url":"assets/sheep_z.png"
+                "url":"assets/Images/sheep_z.png"
             },
             {
                 "type":"image",
                 "key":"fish_a",
-                "url":"assets/fish_a.png"
+                "url":"assets/Images/fish_a.png"
             },
             {
                 "type":"image",
                 "key":"fish_i",
-                "url":"assets/fish_i.png"
+                "url":"assets/Images/fish_i.png"
             },
             {
                 "type":"image",
                 "key":"fish_j",
-                "url":"assets/fish_j.png"
+                "url":"assets/Images/fish_j.png"
+            },
+            {
+                "type":"image",
+                "key":"back_ground_1",
+                "url":"assets/Images/back_ground_1.png"
+            },
+            {
+                "type":"image",
+                "key":"back_ground_2",
+                "url":"assets/Images/back_ground_2.png"
+            },
+            {
+                "type":"image",
+                "key":"back_ground_3",
+                "url":"assets/Images/back_ground_3.png"
+            },
+            {
+                "type":"image",
+                "key":"back_ground_4",
+                "url":"assets/Images/back_ground_4.png"
+            },
+            {
+                "type":"image",
+                "key":"mainScreen",
+                "url":"assets/Images/mainScreen.png"
+            },
+            {
+                "type":"image",
+                "key":"playbutton",
+                "url":"assets/Images/play.png"
+            },
+            {
+                "type":"spritesheet",
+                "key": "bear",
+                "url": "assets/Images/bear3-01.png",
+                "frameConfig":{
+                    "frameWidth": 311, 
+                    "frameHeight": 450
+                }
+            },
+            {
+                "type":"audio",
+                "key":"audio",
+                "url": "assets/Audio/translate_tts.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"try_again",
+                "url": "assets/Audio/try_again.mp3"
             }
         ]
     }

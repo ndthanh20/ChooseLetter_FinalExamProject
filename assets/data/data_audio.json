@@ -1,0 +1,66 @@
+{
+    "test1":{
+        "files":[
+            {
+                "type":"audio",
+                "key":"awesome",
+                "url": "assets/Audio/Awesome.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"fish",
+                "url": "assets/Audio/fish.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"goat",
+                "url": "assets/Audio/goat.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"goodthinking",
+                "url": "assets/Audio/goodthinking.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"goodwork",
+                "url": "assets/Audio/goodwork.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"great",
+                "url": "assets/Audio/great.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"musicsong",
+                "url": "assets/Audio/musicsong.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"gamesound",
+                "url": "assets/Audio/gamesound.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"oops",
+                "url": "assets/Audio/oops.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"pig",
+                "url": "assets/Audio/pig.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"sheep",
+                "url": "assets/Audio/sheep.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"try_again",
+                "url": "assets/Audio/try_again.mp3"
+            }
+        ]
+    }
+}

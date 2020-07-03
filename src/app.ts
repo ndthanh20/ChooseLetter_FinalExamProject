@@ -2,7 +2,10 @@ import "phaser";
 import {Scene1} from "./scene1"
 import { Scene2 } from "./scene2";
 import { Scene3 } from "./scene3";
-import {Scene4} from "./scene4";
+import {Scene4} from   "./scene4";
+import {LoadGame} from "./loadGame";
+import { Scene } from "phaser";
+import { MainScene } from "./mainScene";
 const config: Phaser.Types.Core.GameConfig = {
   title: "Choose Letter",
   type: Phaser.AUTO,
@@ -13,7 +16,7 @@ const config: Phaser.Types.Core.GameConfig = {
           parent: "game",
           autoCenter: Phaser.Scale.CENTER_BOTH
   },
-  scene: [Scene1,Scene2,Scene3,Scene4],
+  scene: [LoadGame,MainScene,Scene1,Scene2,Scene3,Scene4],
   backgroundColor: "#18216D"
 };
 export class ChooseLetterGame extends Phaser.Game {
