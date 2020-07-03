@@ -1,6 +1,6 @@
 # CHOOSE LETTER - THE FINAL EXAM PROJECT OF SOFTWARE ENGINEERING
 This is the final exam project of Software Engineering. The project uses Phaser game framework to implement.
-
+![alt text](https://github.com/ndthanh20/ChooseLetter_FinalExamProject/blob/master/assets/Images/mainScreen.png)
 ## About the game
 A project built by Phaser and TypeScript. The purpose of the project is to help children become familiar with and master the alphabet through extremely beautiful and fun word guessing screens. Each screen will have three animals with the corresponding three letters and children will hear instructions to choose the appropriate letter.
 ## Phaser 3
