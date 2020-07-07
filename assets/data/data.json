@@ -18,8 +18,23 @@
             },
             {
                 "type":"image",
+                "key":"goat_p",
+                "url":"assets/Images/goat_p.png"
+            },
+            {
+                "type":"image",
                 "key":"pig_e",
                 "url":"assets/Images/pig_e.png"
+            },
+            {
+                "type":"image",
+                "key":"pig_c",
+                "url":"assets/Images/pig_c.png"
+            },
+            {
+                "type":"image",
+                "key":"pig_n",
+                "url":"assets/Images/pig_n.png"
             },
             {
                 "type":"image",
@@ -45,6 +60,11 @@
                 "type":"image",
                 "key":"sheep_z",
                 "url":"assets/Images/sheep_z.png"
+            },
+            {
+                "type":"image",
+                "key":"sheep_h",
+                "url":"assets/Images/sheep_h.png"
             },
             {
                 "type":"image",
@@ -101,14 +121,9 @@
                 }
             },
             {
-                "type":"audio",
-                "key":"audio",
-                "url": "assets/Audio/translate_tts.mp3"
-            },
-            {
-                "type":"audio",
-                "key":"try_again",
-                "url": "assets/Audio/try_again.mp3"
+                "type":"image",
+                "key": "home",
+                "url":"assets/Images/home.png"
             }
         ]
     }

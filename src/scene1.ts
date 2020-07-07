@@ -12,7 +12,7 @@ export class Scene1 extends Phaser.Scene {
     }
     create(): void {
         //add sound
-        var awesome = this.sound.add('awesome');
+        var goodjob = this.sound.add('goodjob');
         var goodthinking = this.sound.add('goodthinking');
         var goodwork = this.sound.add('goodwork');
         var great = this.sound.add('great');
@@ -20,14 +20,14 @@ export class Scene1 extends Phaser.Scene {
         var try_again = this.sound.add('try_again');
         var gamesound = this.sound.add('gamesound',{
             mute: false,
-            volume: 0.2,
+            volume: 0.1,
             rate: 1,
             detune: 0,
             seek: 0,
             loop: true,
             delay: 0
         }).play();
-        this.audio = this.sound.add("goat");
+        this.audio = this.sound.add("letter_C");
 
         //add image
         var background = this.add.image(window.innerWidth /2,window.innerHeight /2,'back_ground_1');
@@ -38,6 +38,8 @@ export class Scene1 extends Phaser.Scene {
         myImage2.setScale(0.1);
         var myImage3 = this.add.image(window.innerWidth * 0.85, window.innerHeight * 0.4, 'goat_i').setInteractive({ cursor: 'pointer' });
         myImage3.setScale(0.1);
+        var home = this.add.image(window.innerWidth* 0.1,window.innerHeight*0.1,'home').setInteractive({cursor:'pointer'});
+        home.setScale(0.3);
         
         this.anims.create({
             key: 'talk',
@@ -61,7 +63,7 @@ export class Scene1 extends Phaser.Scene {
             let rightSound = Phaser.Math.Between(0, 3);
             switch (rightSound) {
                 case 0:
-                    awesome.play();
+                    goodjob.play();
                     break;
                 case 1:
                     goodthinking.play();
@@ -124,6 +126,11 @@ export class Scene1 extends Phaser.Scene {
             });
             bear1.play('talk');
         }, this)
+
+        home.on('pointerdown',function (){
+            this.sound.stopAll();
+            this.scene.start('MainScene');
+        },this);
     }
 
     private startClick(pointer, targets) {

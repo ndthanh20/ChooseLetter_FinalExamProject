@@ -33,6 +33,11 @@
             },
             {
                 "type":"audio",
+                "key":"goodjob",
+                "url": "assets/Audio/good_job.mp3"
+            },
+            {
+                "type":"audio",
                 "key":"musicsong",
                 "url": "assets/Audio/musicsong.mp3"
             },
@@ -60,6 +65,26 @@
                 "type":"audio",
                 "key":"try_again",
                 "url": "assets/Audio/try_again.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"letter_C",
+                "url": "assets/Audio/letter_C.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"letter_A",
+                "url": "assets/Audio/letter_A.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"letter_H",
+                "url": "assets/Audio/letter_H.mp3"
+            },
+            {
+                "type":"audio",
+                "key":"letter_X",
+                "url": "assets/Audio/letter_X.mp3"
             }
         ]
     }
