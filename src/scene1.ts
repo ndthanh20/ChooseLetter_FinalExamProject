@@ -43,13 +43,13 @@ export class Scene1 extends Phaser.Scene {
         
         this.anims.create({
             key: 'talk',
-            frames: this.anims.generateFrameNames('bear', { start: 0, end: 1 }),
+            frames: this.anims.generateFrameNames('bear', { start: 0, end: 2 }),
             frameRate: 2,
             repeat: 1,
         });
 
         //add bear
-        var bear1 = this.add.sprite(window.innerWidth - 150, window.innerHeight - 200, 'bear').play('talk').setInteractive({ cursor: 'pointer' });
+        var bear1 = this.add.sprite(window.innerWidth - 150, window.innerHeight - 150, 'bear').play('talk').setInteractive({ cursor: 'pointer' });
 
         this.audio.play();
 
