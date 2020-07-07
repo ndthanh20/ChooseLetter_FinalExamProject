@@ -18,9 +18,7 @@ export class LoadGame extends Phaser.Scene{
             text.setText('Loading game...' + Math.floor(value * 100) + '%');
         });
         this.load.on('complete', function () {
-
             progress.destroy();
-
         });
 
         this.load.pack("data","assets/data/data.json");

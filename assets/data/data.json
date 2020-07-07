@@ -124,6 +124,16 @@
                 "type":"image",
                 "key": "home",
                 "url":"assets/Images/home.png"
+            },
+            {
+                "type":"image",
+                "key":"car",
+                "url":"assets/Images/car.png"
+            },
+            {
+                "type": "json",
+                "key": "animationJSON",
+                "url": "assets/data/animation.json"
             }
         ]
     }

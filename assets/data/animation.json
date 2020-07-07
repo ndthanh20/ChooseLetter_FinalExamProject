@@ -1,0 +1,15 @@
+{
+    "anims": [
+        {
+            "key": "talk",
+            "frames":{
+                "typeOfGeneration": "generateFrameNumbers",
+                "key": "bear",
+                "start": 0,
+                "end": 2
+            },
+            "frameRate":2,
+            "repeat" : 1
+        }
+    ]
+}
