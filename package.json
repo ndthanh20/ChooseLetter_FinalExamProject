@@ -19,11 +19,11 @@
   "homepage": "https://github.com/ndthanh20/ChooseLetter_FinalExamProject#readme",
   "devDependencies": {
     "live-server": "^1.2.1",
-    "phaser": "^3.23.0",
-    "ts-loader": "^7.0.5",
+    "phaser": "^3.55.2",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.9.6",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "file-loader": "^6.0.0",
